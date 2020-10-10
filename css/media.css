@@ -1,0 +1,546 @@
+/* ======== Адаптив сайта под разную ширину экрана мобильных телефонов ============ */
+@media (max-width: 500px) {
+  .slider__title {
+    padding-right: 137px;
+    padding-left: 10px;
+   }  
+
+.header__photo-author {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+
+  .header__publication-date,
+  .header__publication-author-name,
+  .header__publication-author-profession
+   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+/* ============================== begin: Экран до 550px =========================== */
+@media (max-width: 550px) {
+  
+  .main__content {
+    margin-top: 70px;
+  }
+
+  .menu-main {
+    padding-top: 0;
+  }
+
+  .menu-main li {
+    display: block;
+    background-color: #205c92;
+    border: 1px solid #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 2px 1px 0px rgba(65, 65, 65, 0.5);
+  }
+
+  .menu-main li:after {
+    content: none;
+  }
+
+  .menu-main a {
+    padding: 25px 0 20px;
+    margin: 0 30px;
+  }
+
+  .search-form {
+    width: 100% !important;
+    height: 0;
+  }
+
+  .slider__image-author img {
+    display: none;
+  }
+
+  .slider__date,
+  .slider__author-name,
+  .slider__author-profession {
+    padding-left: 20px;
+  }
+}
+/* ============================== end: Экран до 550px ============================= */
+
+/* ============================== begin: Экран до 680px =========================== */
+@media (max-width: 680px) {
+  
+  .slider__title {
+    max-width: 680px !important;
+    width: 100%;
+    font-size: 130% !important; 
+    text-align: center;
+  }
+}
+/* ============================== end: Экран до 680px ============================= */
+
+/* ============================== begin: Экран до 995px =========================== */
+@media (max-width: 995px) {
+  
+  .header__logo img {
+    width: 343px;
+  }
+
+  .header__container {
+    height: 150px;
+  }
+
+  /* Кнопка Меню для мобильной версии */
+  .header__btn-menu {
+   display: block;
+   float: right;
+   padding-right: 50px;
+   padding-top: 30px;
+   font-size: 70px;
+  }
+
+  .top-menu {
+    margin-top: 40px;
+  }
+  
+  .top-menu ul {
+    display: none;
+  }
+
+  /* Панель элементов Меню для мобильной версии на которой расположеные элементы */
+  .menu-panel {
+    margin-top: 720px;
+  }
+
+  /*--begin Форма поиска */
+  form {
+    top: -34px;
+    width: 42%;
+}
+
+  .search-form__button {
+    margin-top: 150px;
+    padding-right: 8px;
+    margin-right: 15px;
+}
+
+  input.search-form__input {
+    background: #ffffff;
+    height: 90px;
+    font-size: 50px;
+  }
+
+  button.search-form__button {
+    height: 90px;
+    width: 80px;
+    border-radius: 25%;
+  }
+
+  button:before {
+    font-size: 35px;
+  }
+
+.search-form__content {
+    margin-top: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .search-form {
+    width: 100%;
+    height: 0;
+  }
+  
+  /*--end Форма поиска */
+
+  /*--begin Главное навигационное меню */
+  .main__container {
+    margin-top: 100px;
+  }
+  
+  .menu-main a {
+    font-size: 250%;
+    width: 700;
+  }
+
+  .menu-main li {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-logo {
+    width: 167px;
+    height: 77px;
+  }
+
+  .header-logo img {
+    width: 161px;
+    height: 70px;
+  }
+
+  .header-container {
+    width: 100%;
+    height: 650px;
+  }
+
+/*-- begin: Главное навигационное меню */
+.menu-main__home {
+   margin-top: 300px;
+ }
+
+ .menu-main__consultation {
+   margin-top: 405px;
+ }
+
+.menu-main__legislation-news {
+   margin-top: 511px;
+ }
+
+.menu-main__court-decisions {
+   margin-top: 617px;
+ }
+
+  .menu-main__about {
+    margin-top: 723px;
+  }
+
+  .menu-main__home,
+  .menu-main__consultation,
+  .menu-main__legislation-news,
+  .menu-main__court-decisions,
+  .menu-main__about {
+    border-radius: 8px;
+    padding-top: 0px;
+  }
+
+  .menu-main__home:hover:before,
+  .menu-main__consultation:hover:before,
+  .menu-main__legislation-news:hover:before,
+  .menu-main__court-decisions:hover:before,
+  .menu-main__about:hover:before {
+    content: none;
+  }
+  /*-- end: Главное навигационное меню */
+
+  /* Заголовки главной страницы "ОСТАННІ НОВИНИ"  и "ПОПУЛЯРНІ ПУБЛІКАЦІЇ" */
+  .latest-news,
+  .popular-news {
+    font-size: 200%;
+    font-weight: 500;
+  }
+
+  .latest-news {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+
+  .popular-news {
+    margin-top: 393px;
+  }
+
+/* Заголовки разделов публикаций для страниц с разделами сайта */
+  .about-range {
+    font-size: 200%;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+  }
+
+  /* begin: Слайдер со свежими новостями */
+  .slick-prev {
+     top: 543px;
+     padding-left: auto;
+     float: left;
+     background-color: #ffffff;
+     height: 100px;
+     width: 100px;
+     box-shadow: 0px 1px 2px 0px rgba(65, 65, 65, 0.5);
+  }
+
+  .slick-arrow {
+    top: 543px;
+    padding-right: auto;
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 1px 2px 0px rgba(65, 65, 65, 0.5);
+  }
+
+  .container__slider {
+    width: 100%;
+    height: 500px;
+  }
+
+  .slider__image-author {
+    padding-left: 5px;
+  }
+
+  .slider__image-author img {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .slider__icon {
+  margin-right: 200px;
+  }
+
+  .slider__title {
+    max-width: 995px;
+    width: 100%;
+    font-size: 250%;
+    padding-left: 10px;
+  }
+
+  .slider__date {
+    font-size: 200%;
+  }
+
+  .slider__author-name {
+     font-size: 200%;
+  }
+
+  .slider__author-profession {
+      font-size: 150%;
+
+  }
+/* end: Слайдер со свежими новостями */
+
+/* begin: Блоки с популярными публикациями */
+.news {
+  top: 14px;
+}
+
+.container__news-top,
+.container__news-bottom, /* Контейнер для главной страницы сайта */
+.container__publications /* Контейнер для публикаций страниц с разделами сайта */
+{
+  display: block;
+}
+
+.container__news-bottom {
+  margin-top: 0px;
+}
+
+.news-top-left, /* Блоки новостей главной страницы сайта... */
+.news-top-center,
+.news-top-right,
+.news-bottom-left,
+.news-bottom-center,
+.news-bottom-right, /* ... Блоки новостей главной страницы сайта */
+.publication-left, /* Блоки публикаций страниц с разделами сайта... */
+.publication-center,
+.publication-right /* ...Блоки публикаций страниц с разделами сайта */
+{
+  max-width: 995px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 0px;
+  height: 350px;
+}
+
+.news-top-left__date, /* Блоки новостей главной страницы сайта ... */
+.news-top-center__date,
+.news-top-right__date,
+.news-bottom-left__date,
+.news-bottom-center__date,
+.news-bottom-right__date, /* ... Блоки новостей главной страницы сайта */
+.publication-left__date, /* Блоки публикаций страниц с разделами сайта... */
+.publication-center__date,
+.publication-right__date,
+.news-top-left__author, /* Блоки новостей главной страницы сайта ... */
+.news-top-center__author,
+.news-top-right__author,
+.news-bottom-left__author,
+.news-bottom-center__author,
+.news-bottom-right__author, /* ... Блоки новостей главной страницы сайта */
+.publication-left__author, /* Блоки публикаций страниц с разделами сайта... */
+.publication-center__author,
+.publication-right__author
+ {
+  font-size: 200%;
+}
+
+.news-top-left__title, /* Блоки новостей главной страницы сайта ... */
+.news-top-center__title,
+.news-top-right__title,
+.news-bottom-left__title,
+.news-bottom-center__title,
+.news-bottom-right__title, /* ... Блоки новостей главной страницы сайта */
+.publication-left__title, /* Блоки публикаций страниц с разделами сайта... */
+.publication-center__title,
+.publication-right__title /* ...Блоки публикаций страниц с разделами сайта */
+{ 
+  font-size: 250%;
+  line-height: 1.2;
+}
+
+.news-top-left__icon, /* Блоки новостей главной страницы сайта ... */
+.news-top-center__icon,
+.news-top-right__icon,
+.news-bottom-left__icon,
+.news-bottom-center__icon,
+.news-bottom-right__icon,
+.news-top-left__icon img,
+.news-top-center__icon img,
+.news-top-right__icon img,
+.news-bottom-left__icon img,
+.news-bottom-center__icon img,
+.news-bottom-right__icon img, /* ... Блоки новостей главной страницы сайта */
+.publication-left__icon,
+.publication-center__icon,
+.publication-right__icon,
+.publication-left__icon img, /* Блоки публикаций страниц с разделами сайта... */
+.publication-center__icon img,
+.publication-right__icon img /* ...Блоки публикаций страниц с разделами сайта */
+{
+  width: 50px;
+  height: 50px;
+}
+
+.news-top-left__icon:hover, /* Блоки новостей главной страницы сайта ... */
+.news-top-center__icon:hover,
+.news-top-right__icon:hover,
+.news-bottom-left__icon:hover,
+.news-bottom-center__icon:hover,
+.news-bottom-right__icon:hover, /* ...Блоки новостей главной страницы сайта */
+.publication-left__icon:hover, /* Блоки публикаций страниц с разделами сайта... */
+.publication-center__icon:hover,
+.publication-right__icon:hover /* ...Блоки публикаций страниц с разделами сайта */
+{
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+/* Контейнер для блока публикаций страниц с разделами */
+.container__publications {
+  margin-bottom: 50px;
+  margin-top: -26px;
+}
+/* end: Блоки с популярными публикациями */
+
+/* begin: Публикации */
+  .main-container {
+    top: 86px;
+  }
+  
+  .publication {
+    margin-top: 0px;
+  }
+
+
+  .header__publication__author-name {
+    text-align: left;
+  }
+
+  /* Размер изображения автора публикации для мобильной версии */
+  .header__photo-author img {
+    width: 314px;
+    height: 440px;
+  }
+
+  .publication-author-profession {
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .main-publication h1 {
+    font-size: 160%;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .main-publication p,
+  .main-publication a,
+  .old p,
+  .footer__publication p,
+  .footer__publication a {
+    font-size: 16px;
+  }
+  
+  .photo-author img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .comparison-table p, 
+  .comparison-table a {
+    font-size: 16px;
+  }
+/* end: Публикации */
+
+/* Подвал веб-сайта */
+  footer {
+    height: 200px;
+    max-width: 100%;
+  }
+
+  .footer__container {
+    display: block;
+    align-content: center;
+    margin-top: 50px;
+  }
+
+  .contacts__container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 230px;
+    padding: 10px 0px 0px 6px;
+  }
+
+  .contacts__email:before,
+  .contacts__telegram:before,
+  .contacts__facebook:before {
+    font-size: 35px;
+  }
+
+  .contacts__email,
+  .contacts__telegram,
+  .contacts__facebook {
+    padding-left: 0px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .copy-text {
+    font-size: 16px;
+  }
+
+/* Иконки валидации сайта */
+  .valid-icon {
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    float: none;
+  }
+
+/* Раздел с авторским правом */
+  .copy-text {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: static;
+    margin-top: 30px;
+  }
+
+/* Кнопка ВВЕРХ */
+  #toTop {
+    width: 30%;
+    height: 30%;
+    background-size: 150px 150px;
+  }
+}
+/* ============================== end: Экран до 995px =========================== */
