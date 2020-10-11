@@ -43,6 +43,7 @@ hr {
   text-align: justify;
   letter-spacing: 0.5px;
   line-height: 1.5;
+  font-size: 16px;
 }
 
 /* Иконка раздела (справа вверху) */
@@ -162,54 +163,77 @@ h3 {
 .min-spacing {letter-spacing: 0.2px;}
 
 /* begin: Инструкции для таблиц */
-
 table {
-  border: 1px solid #205c92;
-  border-radius: 8px;
-}
-
-table p,
-h3 {padding: 0px 8px;}
-
-table h3 {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.comparison-table h3 {
-text-transform: uppercase;
-}
-
-.serial-number p {
   width: 100%;
+  padding: 3px;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+table th, td {
+  border: 1px solid #000000;
+}
+
+table p {
+  padding: 0px 8px;
+  font-size: 16px;
+}
+
+td,
+th {padding: 5px;} /* Поля вокруг текста в таблице */
+
+/* Основной раздел таблицы */
+.section__container {
+  width: 535px;
   text-align: left;
-  font-weight: 600;
 }
 
 .section {
   background: #dce7ef; 
 }
 
+.section p {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Подраздел таблицы */
 .subsection {
   background: #ededed; 
   padding-left: 20px;
+  font-size: 18px;
 }
 
-.title-act {
-width: 20%;
+/* Колонка с номером */
+.serial-number p {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
 }
+
+/* Колонка с наименование нормативного акта */
+.title-act {
+  width: 18%;
+}
+
+/* Убрать отступ в тексте колонки */
+.title-act p:first-letter {margin-left: 0px;}
 
 .title-act p {
   text-align: left;
+  font-size: 16px;
 }
 
-.content-comment p {
- width: 100%;
+/* Содержание комментария к нормативному акту */
+.comment__content p {
+ font-size: 16px;
  text-align: justify;
 }
 
-td,
-th {padding: 5px;} /* Поля вокруг текста в таблице */
 
 /* Фон устаревшей редакции закона в сравнительных таблицах */
 .old {background-color: #efefef;}
