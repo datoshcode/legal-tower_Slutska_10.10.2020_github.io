@@ -164,6 +164,8 @@ h3 {
 
 /* begin: Инструкции для таблиц */
 table {
+  table-layout: fixed; /* Фиксированная ширина ячеек */
+  width: 535;
   width: 100%;
   padding: 3px;
   border-spacing: 0;
@@ -186,7 +188,6 @@ th {padding: 5px;} /* Поля вокруг текста в таблице */
 
 /* Основной раздел таблицы */
 .section__container {
-  width: 535px;
   text-align: left;
 }
 
@@ -209,27 +210,38 @@ th {padding: 5px;} /* Поля вокруг текста в таблице */
 }
 
 /* Колонка с номером */
-.serial-number p {
+td.serial-number {
+  width: 5%;
+}
+
+td.serial-number p {
   text-align: left;
   font-weight: 500;
   font-size: 16px;
+  padding-left: 0; 
 }
 
 /* Колонка с наименование нормативного акта */
-.title-act {
-  width: 18%;
+td.title-act {
+  width: 20%;
 }
 
 /* Убрать отступ в тексте колонки */
 .title-act p:first-letter {margin-left: 0px;}
 
-.title-act p {
+td.title-act p {
   text-align: left;
   font-size: 16px;
 }
 
 /* Содержание комментария к нормативному акту */
-.comment__content p {
+
+td.comment__content {
+  width: 70%;
+
+}
+
+td.comment__content p {
  font-size: 16px;
  text-align: justify;
 }
