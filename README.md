@@ -5,6 +5,12 @@
 </p>
 
 <p>
+  Верстка: Андрей Овчаров, 10.10.2020; <br>
+  e-mail: ovcharov.a@ukr.net; <br> 
+  Проверка кода страницы на валидность: 10.10.2020.
+</p>
+
+<p>
   https://datoshcode.github.io/legal-tower_Slutska_10.10.2020_github.io/
 </p>  
   
