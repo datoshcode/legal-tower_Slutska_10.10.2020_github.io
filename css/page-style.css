@@ -314,6 +314,7 @@ td.comment__content p {
 
 p.footer__name-author {
   font-weight: 500;
+  font-size: 16px;
   float: right;
   padding-right: 10px;
 }
