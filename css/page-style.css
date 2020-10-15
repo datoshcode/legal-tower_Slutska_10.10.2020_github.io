@@ -312,20 +312,20 @@ td.comment__content p {
  list-style-type: decimal;
 }
 
-p.footer__name-author {
-  font-weight: 500;
+/* Подвал публикации */
+.footer-publication {
+  padding-top: 10px;
   font-size: 16px;
-  float: right;
-  padding-right: 10px;
 }
 
-p.copy-name-author {
+.footer-publication__author {
   font-weight: 500;
   float: right;
   padding-right: 10px;
+  text-align: left;
 }
 
-p.attention-copy{
+.footer-publication__attention-copy {
   font-style: italic;
   font-weight: 500;
   padding-top: 70px;
@@ -348,15 +348,6 @@ mark {
   margin-top: -26px;
 }
 /* end: Инструкции для таблиц */
-
-/* Подвал публикации */
-.footer__publication {
-  text-align: center;
-  font-weight: 500;
-}
-
-.footer-publication p,
-.footer-publication a {font-size: 16px;}
 
 /* Отдельные инструкции для стилей страницы "Про нас" */
 .header-about__logo {
